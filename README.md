@@ -2,6 +2,8 @@
 
 A highly modular, scalable Finite State Machine (FSM) for a Guard Patrolling System.
 
+Utilises the Roblox Pathfinding Service.
+
 NPCs move between nodes given to them (Patrolling State), and if a player is in range, they switch to the Chasing State, moving towards the player. When the player is far enough away, the NPC returns to the nodes and begins patrolling once again.  
 
 ## Features
